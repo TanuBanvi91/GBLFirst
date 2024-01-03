@@ -1,0 +1,20 @@
+
+<div class="main">
+    <h4>Asset List</h4>
+    <div class="token">
+            <input type="text" placeholder="Enter Token" [(ngModel)]="token" class="form-control token-input">
+            <button class="btn btn-primary" (click)="fetchData()">Submit</button>
+
+    </div>
+    <div class="assetListDisplay">
+        <div class="row">
+            <div class="col-md-6" *ngFor="let asset of assetNames">
+                <ul class="assetUL">
+                    <li class="asset"><a href="">{{asset}}</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</div>

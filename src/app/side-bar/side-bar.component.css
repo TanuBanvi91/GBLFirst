@@ -1,0 +1,37 @@
+.sidebar {
+    /* width: 220px; */
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    /* position: fixed; */
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: #61dafb;
+  }
+
+  a.active {
+    background-color: white;
+    color: black;
+    padding: 9px 30px;
+    border-radius: 20px;
+    /* Add any additional styling for the active link here */
+  }

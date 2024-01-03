@@ -1,0 +1,25 @@
+.token-input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.token button{
+    /* float: right; */
+    width: 130px;
+
+}
+.assetListDisplay{
+    margin-top: 20px;
+}
+.asset{
+    background-color: rgb(62, 143, 62);
+    padding: 17px;
+    width: 400px;
+    list-style: none;
+
+}
+.asset a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+}

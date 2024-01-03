@@ -1,0 +1,8 @@
+applications:
+  - name: nodeconnection
+    instances: 1
+    random-route: true
+    memory: 50MB
+    buildpack: staticfile_buildpack
+    disk_quota: 1GB
+    path: dist/mind-sdata
